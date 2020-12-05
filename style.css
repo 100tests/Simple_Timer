@@ -1,0 +1,111 @@
+html {
+    height: 96%;
+    font-family: 'Montserrat';
+    
+}
+
+html
+ {
+    border-style: dashed;
+    border-width: 13px;
+    border-color: rgb(34, 22, 66);
+    border-radius: 30px;       
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url( morning.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+ 
+button {
+    border-radius: 20px;
+    font-weight: 900;
+    margin: 35px;   
+}
+
+.s_and_p {
+    padding: 10px 40px;
+    color: #fff ;
+text-transform: uppercase;
+background: #ed3330;
+border-radius: 5px;
+transition: all 0.4s ease 0s;
+}
+
+.setBtn {
+    padding: 15px 90px;
+    margin-top: 30px;
+    color: #fff ;
+ text-transform: uppercase;
+ background: #ed3330;
+ border-radius: 5px;
+ transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+#minutes,
+#seconds {
+    height: 30px;
+    width: 80%;
+    margin: 6px; 
+    background: rgb(220, 226, 223);
+    color:black;
+   font-size: 1.4rem;  
+   padding: 7px 0;
+  
+
+}
+
+input::placeholder {
+    padding: 4px;
+    color:rgb(0, 0, 0);
+}
+
+ 
+#time {
+    padding: 7=6px;
+    font-size: 92px;
+}
+
+.mainPage {
+    padding: 20px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.set_exercise_time{
+    text-align: center;
+}
+
+#set_time {
+    font-weight: 1000;
+}
+
+#restore {
+    position: absolute;
+    margin-right: 50px;
+    fill: rgb(0, 0, 0);
+    right: 0; 
+    cursor: pointer;
+}
+
+
+
+ 
+ 
