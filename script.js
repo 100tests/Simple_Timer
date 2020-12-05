@@ -54,22 +54,3 @@ function updateTime() {
     document.getElementById("time").innerHTML = minutes + "m " + seconds + "s ";
 }
 
-// run after DOM is fully loaded
-window.onload = function () {
-    if (this.localStorage.getItem("theme")!==null) {
-        var theme = this.localStorage.getItem("theme");
-        document.documentElement.setAttribute('data-theme', theme);
-        if (theme == "dark") {
-            document.getElementById("themeCheckbox").checked = true;
-        }
-    }
-    
-
-    let trans = () => {
-        document.documentElement.classList.add('transition');
-        window.setTimeout(() => {
-            document.documentElement.classList.remove('transition');
-        }, 1000)
-    }
-}
-
